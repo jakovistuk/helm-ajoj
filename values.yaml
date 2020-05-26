@@ -10,7 +10,8 @@ image:
   imageName: UNKNOWN_IMAGE_NAME
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: UNKNOWN_TAG
+  # JI in CI/CD it is not needed, take value from Chart.yaml
+  # tag: UNKNOWN_TAG
 
 imagePullSecrets: []
 nameOverride: ""
